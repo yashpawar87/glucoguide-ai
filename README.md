@@ -29,11 +29,7 @@
 
 ## 🎥 Demo Video
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/yashpawar87/glucoguide-ai/main/assets/demo.mp4">
-    <img src="assets/demo-preview.png" alt="Watch Demo"/>
-  </a>
-</p>
+https://github.com/user-attachments/assets/8dd12e5b-e288-4332-ba8f-b583c3410d21
 
 ---
 
