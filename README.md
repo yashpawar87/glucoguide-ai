@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/8dd12e5b-e288-4332-ba8f-b583c3410d21
 
 ## 🏗 Architecture
 
-<img src="screenshots/architecture.png" alt="Architecture" width="700" />
+<img src="assets/architecture.png" alt="Architecture" width="700" />
 
 </div>
 
