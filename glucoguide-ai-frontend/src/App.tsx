@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import SubmitReport from "./pages/SubmitReport";
 import DailyLog from "./pages/DailyLog";
 import MedicineTracker from "./pages/MedicineTracker";
+import Chatbot from "./pages/Chatbot";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/submit-report" element={<SubmitReport />} />
         <Route path="/daily-log" element={<DailyLog />} />
         <Route path="/medicines" element={<MedicineTracker />} />
+        <Route path="/chatbot" element={<Chatbot />} />
       </Routes>
     </AppLayout>
   );

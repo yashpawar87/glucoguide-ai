@@ -7,6 +7,7 @@ import {
   Activity,
   LogOut,
   Pill,
+  MessageCircle,
 } from "lucide-react";
 
 const navItems = [
@@ -14,6 +15,7 @@ const navItems = [
   { path: "/submit-report", label: "Lab Reports", icon: FileText },
   { path: "/daily-log", label: "Daily Log", icon: TrendingUp },
   { path: "/medicines", label: "Medicines", icon: Pill },
+  { path: "/chatbot", label: "Chat", icon: MessageCircle },
 ];
 
 const Sidebar = () => {

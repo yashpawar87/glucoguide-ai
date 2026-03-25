@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine, Base
 import app.models  
 from app.firebase_auth import get_current_user
-from app.routes import report_routes, log_routes, recommendation_routes, medication_routes 
+from app.routes import report_routes, log_routes, recommendation_routes, medication_routes, chat_routes
 
 app = FastAPI()
 
@@ -26,6 +26,7 @@ app.include_router(report_routes.router)
 app.include_router(recommendation_routes.router)
 app.include_router(log_routes.router)
 app.include_router(medication_routes.router)
+app.include_router(chat_routes.router)
 
 @app.get("/")
 def read_root():
